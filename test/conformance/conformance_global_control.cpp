@@ -22,7 +22,7 @@
 #include "oneapi/tbb/global_control.h"
 #include "oneapi/tbb/parallel_for.h"
 
-#include <limits.h>
+#include <climits>
 #include <thread>
 
 //! \file conformance_global_control.cpp

@@ -410,7 +410,7 @@ public:
     typedef test_exception TestException;
 #endif
 
-#include <string.h>
+#include <cstring>
 
 #define NUM_CHORES      512
 #define NUM_GROUPS      64

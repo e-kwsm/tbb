@@ -75,11 +75,11 @@ void limitMem( size_t limit )
 // Do not test errno with static VC runtime
 #else // _WIN32 || _WIN64
 #include <sys/resource.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <errno.h>
+#include <cstdlib>
+#include <cstdio>
+#include <cerrno>
 #include <sys/types.h>  // uint64_t on FreeBSD, needed for rlim_t
-#include <stdint.h>     // SIZE_MAX
+#include <cstdint>      // SIZE_MAX
 
 void limitMem( size_t limit )
 {
@@ -109,12 +109,12 @@ static const int MinThread = 1;
 static const int MaxThread = 4;
 static bool Verbose = false;
 
-#include <time.h>
-#include <errno.h>
-#include <limits.h> // for CHAR_BIT
+#include <ctime>
+#include <cerrno>
+#include <climits> // for CHAR_BIT
 
 #if __unix__
-#include <stdint.h> // uintptr_t
+#include <cstdint> // uintptr_t
 #endif
 #if _WIN32 || _WIN64
 #include <malloc.h> // _aligned_(malloc|free|realloc)

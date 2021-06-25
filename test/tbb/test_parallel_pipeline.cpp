@@ -28,7 +28,7 @@ int filter_node_count = 0;
 #include "tbb/task_group.h"
 
 #include <atomic>
-#include <string.h>
+#include <cstring>
 #include <memory> // std::unique_ptr
 
 //! \file test_parallel_pipeline.cpp

@@ -19,7 +19,7 @@
 #include "common/iterator.h"
 #include "common/utils_concurrency_limit.h"
 
-#include <limits.h> // for INT_MAX
+#include <climits> // for INT_MAX
 #include <thread>
 #include <vector>
 

@@ -26,7 +26,7 @@
 
 #include "common/allocator_overload.h"
 #include "common/utils_assert.h"
-#include <stdlib.h>
+#include <cstdlib>
 
 // __TBB_malloc_safer_msize() returns 0 for unknown objects,
 // thus we can detect ownership
@@ -58,7 +58,7 @@ bool exe_isMallocOverloaded()
 #else
 #include <malloc.h>
 #endif
-#include <signal.h>
+#include <csignal>
 
 #if __unix__ && !__ANDROID__
 extern "C" {

@@ -67,7 +67,7 @@ static TidTableType tidTable;
 #if __sun || __SUNPRO_CC
 #define _POSIX_PTHREAD_SEMANTICS 1 // to get standard-conforming sigwait(2)
 #endif
-#include <signal.h>
+#include <csignal>
 #include <sys/types.h>
 #include <unistd.h>
 #include <sys/wait.h>

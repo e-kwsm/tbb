@@ -34,19 +34,19 @@
 // X_ShmAttach macro was changed to 1 due to recent changes to X11/extensions/XShm.h header.
 
 #include "video.hpp"
-#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
+#include <cstring>
+#include <cstdio>
+#include <cstdlib>
+#include <cmath>
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 #include <X11/keysym.h>
 #include <sys/time.h>
-#include <signal.h>
+#include <csignal>
 #include <pthread.h>
 
 #ifndef X_NOSHMEM
-#include <errno.h>
+#include <cerrno>
 #include <X11/extensions/XShm.h>
 #include <sys/ipc.h>
 #include <sys/shm.h>

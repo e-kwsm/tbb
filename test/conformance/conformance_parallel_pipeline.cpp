@@ -26,7 +26,7 @@
 
 #include <atomic>
 #include <thread>
-#include <string.h>
+#include <cstring>
 #include <memory>
 #include <tuple>
 

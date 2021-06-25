@@ -14,8 +14,8 @@
     limitations under the License.
 */
 
-#include <string.h>   /* for memset */
-#include <errno.h>
+#include <cstring>   /* for memset */
+#include <cerrno>
 #include "tbbmalloc_internal.h"
 
 namespace rml {

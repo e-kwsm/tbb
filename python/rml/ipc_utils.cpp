@@ -16,10 +16,10 @@
 
 #include "ipc_utils.h"
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <limits.h>
-#include <string.h>
+#include <cstdlib>
+#include <cstdio>
+#include <climits>
+#include <cstring>
 #include <unistd.h>
 
 namespace tbb {

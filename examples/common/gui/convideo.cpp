@@ -15,7 +15,7 @@
 */
 
 #include <cassert>
-#include <stdio.h>
+#include <cstdio>
 
 #include "video.hpp"
 

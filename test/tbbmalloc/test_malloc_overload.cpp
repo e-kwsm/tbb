@@ -66,12 +66,12 @@
 #include "common/utils_assert.h"
 #include "common/utils_env.h"
 
-#include <stdlib.h>
-#include <string.h>
+#include <cstdlib>
+#include <cstring>
 #if !__APPLE__
 #include <malloc.h>
 #endif
-#include <stdio.h>
+#include <cstdio>
 #include <new>
 #if MALLOC_UNIXLIKE_OVERLOAD_ENABLED || MALLOC_ZONE_OVERLOAD_ENABLED
 #include <unistd.h> // for sysconf
@@ -79,7 +79,7 @@
 #endif
 
 #if __unix__
-#include <stdint.h> // for uintptr_t
+#include <cstdint> // for uintptr_t
 
 extern "C" {
 void *__libc_malloc(size_t size);

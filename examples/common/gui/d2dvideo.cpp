@@ -19,7 +19,7 @@
 
 // and another headers
 #include <cassert>
-#include <stdio.h>
+#include <cstdio>
 #include <dxsdkver.h>
 #if _DXSDK_PRODUCT_MAJOR < 9
 #error DXSDK Version 9 and above required.

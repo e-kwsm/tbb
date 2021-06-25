@@ -44,7 +44,7 @@
 */
 
 #include <omp.h>
-#include <string.h>
+#include <cstring>
 
 #include "machine.hpp"
 #include "types.hpp"

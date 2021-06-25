@@ -22,7 +22,7 @@
 
 #include "oneapi/tbb/profiling.h"
 
-#include <string.h>
+#include <cstring>
 
 namespace tbb {
 namespace detail {

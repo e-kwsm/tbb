@@ -18,7 +18,7 @@
 
 #if _USRDLL
 
-#include <stdlib.h>
+#include <cstdlib>
 #include "common/config.h"
 #include "common/utils_assert.h"
 #include "tbb/scalable_allocator.h"

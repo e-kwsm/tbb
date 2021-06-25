@@ -22,8 +22,8 @@
 #if !defined(__TBB_HardwareConcurrency)
 
 #include "dynamic_link.h"
-#include <stdio.h>
-#include <limits.h>
+#include <cstdio>
+#include <climits>
 
 #if _WIN32||_WIN64
 #include <windows.h>

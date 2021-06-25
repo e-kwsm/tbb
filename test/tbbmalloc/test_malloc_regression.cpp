@@ -23,7 +23,7 @@
 #include "oneapi/tbb/detail/_utils.h"
 #include "tbb/scalable_allocator.h"
 #include "thread"
-#include <stdio.h>
+#include <cstdio>
 
 class minimalAllocFree {
 public:

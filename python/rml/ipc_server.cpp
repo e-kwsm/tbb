@@ -28,7 +28,7 @@
 #include "ipc_utils.h"
 
 #include <fcntl.h>
-#include <stdlib.h>
+#include <cstdlib>
 
 namespace rml {
 namespace internal {

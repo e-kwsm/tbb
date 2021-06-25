@@ -15,9 +15,9 @@
 */
 
 #include "tbbmalloc_internal.h"
-#include <errno.h>
+#include <cerrno>
 #include <new>        /* for placement new */
-#include <string.h>   /* for memset */
+#include <cstring>    /* for memset */
 
 #include "oneapi/tbb/version.h"
 #include "../tbb/environment.h"

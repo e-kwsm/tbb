@@ -20,9 +20,9 @@
 #include <cassert>
 #include <cstddef>
 #if _MSC_VER
-#include <stddef.h> // for uintptr_t
+#include <cstddef> // for uintptr_t
 #else
-#include <stdint.h> // for uintptr_t
+#include <cstdint> // for uintptr_t
 #endif
 #if _WIN32 || _WIN64
 #include <windows.h>

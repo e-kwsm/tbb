@@ -24,7 +24,7 @@
 #include "tbb/concurrent_vector.h"
 #include "tbb/global_control.h"
 
-#include <math.h>
+#include <cmath>
 #include <vector>
 #include <functional>
 #include <string>
